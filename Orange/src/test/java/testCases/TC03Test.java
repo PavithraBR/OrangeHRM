@@ -19,7 +19,7 @@ public class TC03Test extends BaseTest {
 		adminPage.getAdd().click();
 		SelectClassUtil dropDown=new SelectClassUtil();
 		adminPage.getEmployeeName().clear();
-		adminPage.getEmployeeName().sendKeys("David Morris",Keys.ENTER);
+		adminPage.getEmployeeName().sendKeys("David.Morris",Keys.ENTER);
 		adminPage.getUserName().clear();
 		adminPage.getUserName().sendKeys("Pavithra");
 		dropDown.selectDropDown(adminPage.getStatusDropDown(), "Enabled");

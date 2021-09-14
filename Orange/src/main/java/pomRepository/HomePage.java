@@ -38,4 +38,11 @@ public class HomePage {
 	public WebElement getLogout() {
 		return logout;
 	}
+	
+	@FindBy(id="menu__Performance")
+	private WebElement performanceButton;
+
+	public WebElement getPerformanceButton() {
+		return performanceButton;
+	}
 }

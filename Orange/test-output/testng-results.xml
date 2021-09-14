@@ -7,17 +7,20 @@
     <line>
       <![CDATA[Successfully enter password into textFiled]]>
     </line>
+    <line>
+      <![CDATA[Leave status is verified]]>
+    </line>
   </reporter-output>
-  <suite started-at="2021-09-14T11:45:06 IST" name="Default suite" finished-at="2021-09-14T11:45:24 IST" duration-ms="17256">
+  <suite started-at="2021-09-14T17:13:45 IST" name="Default suite" finished-at="2021-09-14T17:14:22 IST" duration-ms="36263">
     <groups>
     </groups>
-    <test started-at="2021-09-14T11:45:06 IST" name="Default test" finished-at="2021-09-14T11:45:24 IST" duration-ms="17256">
-      <class name="testCases.TC06Test">
-        <test-method is-config="true" signature="preCondition()[pri:0, instance:testCases.TC06Test@67c33749]" started-at="2021-09-14T11:45:07 IST" name="preCondition" finished-at="2021-09-14T11:45:08 IST" duration-ms="1711" status="PASS">
+    <test started-at="2021-09-14T17:13:45 IST" name="Default test" finished-at="2021-09-14T17:14:22 IST" duration-ms="36263">
+      <class name="testCases.TC12Test">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:testCases.TC12Test@bd4dc25]" started-at="2021-09-14T17:13:46 IST" name="preCondition" finished-at="2021-09-14T17:13:47 IST" duration-ms="1472" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method is-config="true" signature="loginCredentials()[pri:0, instance:testCases.TC06Test@67c33749]" started-at="2021-09-14T11:45:08 IST" name="loginCredentials" finished-at="2021-09-14T11:45:17 IST" duration-ms="9023" status="PASS">
+        <test-method is-config="true" signature="loginCredentials()[pri:0, instance:testCases.TC12Test@bd4dc25]" started-at="2021-09-14T17:13:47 IST" name="loginCredentials" finished-at="2021-09-14T17:14:05 IST" duration-ms="17852" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Successfully enter username into textFiled]]>
@@ -27,19 +30,22 @@
             </line>
           </reporter-output>
         </test-method> <!-- loginCredentials -->
-        <test-method signature="addCandidateDetails()[pri:0, instance:testCases.TC06Test@67c33749]" started-at="2021-09-14T11:45:17 IST" name="addCandidateDetails" finished-at="2021-09-14T11:45:23 IST" duration-ms="5551" status="PASS">
+        <test-method signature="leave()[pri:0, instance:testCases.TC12Test@bd4dc25]" started-at="2021-09-14T17:14:05 IST" name="leave" finished-at="2021-09-14T17:14:20 IST" duration-ms="15479" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Leave status is verified]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- addCandidateDetails -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:testCases.TC06Test@67c33749]" started-at="2021-09-14T11:45:23 IST" name="logout" finished-at="2021-09-14T11:45:24 IST" duration-ms="925" status="PASS">
+        </test-method> <!-- leave -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testCases.TC12Test@bd4dc25]" started-at="2021-09-14T17:14:20 IST" name="logout" finished-at="2021-09-14T17:14:22 IST" duration-ms="1310" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="postCondition()[pri:0, instance:testCases.TC06Test@67c33749]" started-at="2021-09-14T11:45:24 IST" name="postCondition" finished-at="2021-09-14T11:45:24 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:testCases.TC12Test@bd4dc25]" started-at="2021-09-14T17:14:22 IST" name="postCondition" finished-at="2021-09-14T17:14:22 IST" duration-ms="105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-      </class> <!-- testCases.TC06Test -->
+      </class> <!-- testCases.TC12Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

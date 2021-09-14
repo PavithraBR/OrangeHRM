@@ -1,5 +1,6 @@
 package testCases;
 
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import genericLibrary.BaseTest;
@@ -18,9 +19,10 @@ public class TC04Test extends BaseTest{
 		adminPage.getSearchUserName().sendKeys("Pavithra");
 		SelectClassUtil dropDown=new SelectClassUtil();
 		dropDown.selectDropDown(adminPage.getUserRole(), "ESS");
-		adminPage.getSearchemployeeName().sendKeys("David Morris");
+		adminPage.getSearchemployeeName().sendKeys("David.Morris");
 		dropDown.selectDropDown(adminPage.getSearchstatus(), "Enabled");
 		adminPage.getSearch().click();
+		Reporter.log("user is able to search for the added details",true);
 	}
 
 }

@@ -66,6 +66,6 @@ public class BaseTest {
 	 * This method is used to perform postcondition actions on the application
 	 */
 	public void postCondition() throws InterruptedException {
-	//driver.close();
+	driver.quit();
 	}
 }

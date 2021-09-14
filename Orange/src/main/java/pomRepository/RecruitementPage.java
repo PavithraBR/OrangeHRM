@@ -65,11 +65,23 @@ public class RecruitementPage extends BaseTest {
      @FindBy(id="menu_recruitment_viewCandidates")
      private WebElement CandidatesList;
      
-     @FindBy(id="ohrmList_chkSelectRecord_23_4")
+     @FindBy(xpath="//input[@type='checkbox']/../../../..//input[@name='chkSelectRow[]']")
      private WebElement selectRecord;
      
-
+     @FindBy(id="candidateSearch_candidateName")
+     private WebElement searchCandidateName;
      
+     @FindBy(id="btnSrch")
+     private WebElement searchButton;
+     
+	public WebElement getSearchButton() {
+		return searchButton;
+	}
+
+	public WebElement getSearchCandidateName() {
+		return searchCandidateName;
+	}
+
 	public WebElement getSelectRecord() {
 		return selectRecord;
 	}
