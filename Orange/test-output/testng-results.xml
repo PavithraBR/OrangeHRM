@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Successfully enter username into textFiled]]>
+    </line>
+    <line>
+      <![CDATA[Successfully enter password into textFiled]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-09-14T11:45:06 IST" name="Default suite" finished-at="2021-09-14T11:45:24 IST" duration-ms="17256">
+    <groups>
+    </groups>
+    <test started-at="2021-09-14T11:45:06 IST" name="Default test" finished-at="2021-09-14T11:45:24 IST" duration-ms="17256">
+      <class name="testCases.TC06Test">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:testCases.TC06Test@67c33749]" started-at="2021-09-14T11:45:07 IST" name="preCondition" finished-at="2021-09-14T11:45:08 IST" duration-ms="1711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method is-config="true" signature="loginCredentials()[pri:0, instance:testCases.TC06Test@67c33749]" started-at="2021-09-14T11:45:08 IST" name="loginCredentials" finished-at="2021-09-14T11:45:17 IST" duration-ms="9023" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully enter username into textFiled]]>
+            </line>
+            <line>
+              <![CDATA[Successfully enter password into textFiled]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginCredentials -->
+        <test-method signature="addCandidateDetails()[pri:0, instance:testCases.TC06Test@67c33749]" started-at="2021-09-14T11:45:17 IST" name="addCandidateDetails" finished-at="2021-09-14T11:45:23 IST" duration-ms="5551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCandidateDetails -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testCases.TC06Test@67c33749]" started-at="2021-09-14T11:45:23 IST" name="logout" finished-at="2021-09-14T11:45:24 IST" duration-ms="925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:testCases.TC06Test@67c33749]" started-at="2021-09-14T11:45:24 IST" name="postCondition" finished-at="2021-09-14T11:45:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testCases.TC06Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
